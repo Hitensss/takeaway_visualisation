@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d79002a-95fc-4eff-902c-210c4dbff002" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:\IDEA\apache-maven-3.9.14" />
+        <option name="localRepository" value="E:\IDEA\apache-maven-3.9.14\mvn" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="E:\IDEA\apache-maven-3.9.14\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3BJ10SLFMfJjHAVmNooFGL87v2Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "last_opened_file_path": "E:/study/thesis/my_project/Takeaway_Spark/takeaway_spark",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDK",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.CategoryDistance.executor": "Run",
+    "应用程序.CategoryRatingAnalysis.executor": "Run",
+    "应用程序.CategorySalesAnalysis.executor": "Run",
+    "应用程序.CategoryStats.executor": "Run",
+    "应用程序.CorrelationAnalysis.executor": "Run",
+    "应用程序.DeliveryFeeDistanceAnalysis.executor": "Run",
+    "应用程序.DeliveryFeeDistributionAnalysis.executor": "Run",
+    "应用程序.DeliveryFeeRatingAnalysis.executor": "Run",
+    "应用程序.DeliveryFeeTimeAnalysis.executor": "Run",
+    "应用程序.DeliveryTimeDistributionAnalysis.executor": "Run",
+    "应用程序.DeliveryTimeRatingAnalysis.executor": "Run",
+    "应用程序.DistanceRatingAnalysis.executor": "Run",
+    "应用程序.DistanceStats.executor": "Run",
+    "应用程序.MinPriceDistributionAnalysis.executor": "Run",
+    "应用程序.MinPriceRatingAnalysis.executor": "Run",
+    "应用程序.PriceDistributionAnalysis.executor": "Run",
+    "应用程序.PriceRatingAnalysis.executor": "Run",
+    "应用程序.RatingDistribution.executor": "Run",
+    "应用程序.SalesDeliveryFeeAnalysis.executor": "Run",
+    "应用程序.SalesDeliveryTimeAnalysis.executor": "Run",
+    "应用程序.SalesDistanceAnalysis.executor": "Run",
+    "应用程序.SalesDistributionAnalysis.executor": "Run",
+    "应用程序.SalesRatingCorrelation.executor": "Run",
+    "应用程序.ScatterData.executor": "Run",
+    "应用程序.TopShops.executor": "Run",
+    "应用程序.analysis.CategoryDistance.executor": "Run",
+    "应用程序.analysis.CategoryStats.executor": "Run",
+    "应用程序.analysis.ScatterData.executor": "Run",
+    "应用程序.analysis.TopShops.executor": "Run",
+    "应用程序.category_distance.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\study\thesis\my_project\Takeaway_Spark\takeaway_spark\src\Scala\cleaning" />
+      <recent name="E:\study\thesis\my_project\Takeaway_Spark\takeaway_spark\src\Scala\analysis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.DeliveryFeeTimeAnalysis">
+    <configuration name="DeliveryFeeDistanceAnalysis" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="analysis.DeliveryFeeDistanceAnalysis" />
+      <module name="takeaway_spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeliveryFeeDistributionAnalysis" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="analysis.DeliveryFeeDistributionAnalysis" />
+      <module name="takeaway_spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeliveryFeeTimeAnalysis" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="analysis.DeliveryFeeTimeAnalysis" />
+      <module name="takeaway_spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeliveryTimeDistributionAnalysis" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="analysis.DeliveryTimeDistributionAnalysis" />
+      <module name="takeaway_spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="category_distance" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="analysis.category_distance" />
+      <module name="takeaway_spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.DeliveryFeeTimeAnalysis" />
+        <item itemvalue="应用程序.DeliveryFeeDistanceAnalysis" />
+        <item itemvalue="应用程序.DeliveryFeeDistributionAnalysis" />
+        <item itemvalue="应用程序.DeliveryTimeDistributionAnalysis" />
+        <item itemvalue="应用程序.category_distance" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8d79002a-95fc-4eff-902c-210c4dbff002" name="更改" comment="" />
+      <created>1774192137521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774192137521</updated>
+      <workItem from="1774192138464" duration="4346000" />
+      <workItem from="1774197050631" duration="1300000" />
+      <workItem from="1774257818248" duration="14263000" />
+      <workItem from="1774350877672" duration="9442000" />
+      <workItem from="1774541602046" duration="75000" />
+      <workItem from="1774861453132" duration="24622000" />
+      <workItem from="1774942176425" duration="25287000" />
+      <workItem from="1775030187306" duration="11519000" />
+      <workItem from="1776074958426" duration="22621000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
