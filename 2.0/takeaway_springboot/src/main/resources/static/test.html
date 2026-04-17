@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>API测试</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .api-group { margin-bottom: 30px; }
+        .api-item { margin: 10px 0; padding: 10px; background: #f5f5f5; border-radius: 5px; }
+        .api-url { color: #0066cc; cursor: pointer; }
+        .result { margin-top: 10px; padding: 10px; background: #fff; border: 1px solid #ddd; display: none; }
+        button { margin-left: 10px; }
+    </style>
+</head>
+<body>
+<h1>外卖餐饮数据分析系统 - API测试</h1>
+
+<div class="api-group">
+    <h2>📊 商家分析模块</h2>
+    <div class="api-item">
+        <span class="api-url">/api/merchant/category-stats</span>
+        <button onclick="testAPI('/api/merchant/category-stats')">测试</button>
+        <div id="result-category-stats" class="result"></div>
+    </div>
+    <div class="api-item">
+        <span class="api-url">/api/merchant/top-shops</span>
+        <button onclick="testAPI('/api/merchant/top-shops')">测试</button>
+        <div id="result-top-shops" class="result"></div>
+    </div>
+    <div class="api-item">
+        <span class="api-url">/api/merchant/sales-distribution</span>
+        <button onclick="testAPI('/api/merchant/sales-distribution')">测试</button>
+        <div id="result-sales-distribution" class="result"></div>
+    </div>
+</div>
+
+<div class="api-group">
+    <h2>🚚 外卖配送分析模块</h2>
+    <div class="api-item">
+        <span class="api-url">/api/delivery/distance-stats</span>
+        <button onclick="testAPI('/api/delivery/distance-stats')">测试</button>
+        <div id="result-distance-stats" class="result"></div>
+    </div>
+    <div class="api-item">
+        <span class="api-url">/api/delivery/correlation-matrix</span>
+        <button onclick="testAPI('/api/delivery/correlation-matrix')">测试</button>
+        <div id="result-correlation-matrix" class="result"></div>
+    </div>
+</div>
+
+<script>
+    function testAPI(endpoint) {
+        const resultDiv = document.getElementById(`result-${endpoint.replace(/\//g, '-')}`);
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = '加载中...';
+
+        fetch(`http://localhost:8081${endpoint}`)
+            .then(response => response.json())
+            .then(data => {
+                resultDiv.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+            })
+            .catch(error => {
+                resultDiv.innerHTML = `<span style="color:red">错误: ${error.message}</span>`;
+            });
+    }
+</script>
+</body>
+</html>
